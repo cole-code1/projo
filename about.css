@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    background-image:url(./nathan-dumlao-EwaV3HjwmUo-unsplash.jpg)
+}
+#navbar a{
+    color: lightseagreen;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#navbar a:hover{
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 10px 1px 10px rgba(0,0,0,0.3);
+
+}
+ h1{
+    color: black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.ed h2{
+    color: blue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:normal;
+}
+.ed h3{
+    color: darkgreen;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+}
+.ed p{
+    color:chocolate;
+    font-weight: 400;
+}
+#containerinsideacontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 1%;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
+#containerinsideacontainer:hover{
+    color: black;
+    cursor: pointer;
+    background-color: lightblue;
+}
+#icon1{  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 1%;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+    
+
+#icon1:hover{
+    color: black;
+    cursor: pointer;
+    background-color: lightblue;
+}
+#icon2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+#icon2:hover{
+    color: black;
+    cursor: pointer;
+    background-color: lightblue;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+div h1{
+    text-decoration: underline;
+}
+#COLLEGE{
+    border-radius: 10px;
+    width: 20%;
+    border-style: double;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 1%;
+    margin:auto;
+}
+#SECONDARY{
+    border-radius: 10px;
+    width: 20%;
+    border-style: double;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 1%;
+    margin:auto;
+}
+#PRIMARY{
+    border-radius: 10px;
+    width: 20%;
+    border-style: double;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 1%;
+    margin:auto;
+}
+#COLLEGE:hover{
+    background-color: black;
+}
+#SECONDARY:hover{
+    background-color: black;
+}
+#PRIMARY:hover{
+    background-color: black;
+}
+h5{
+    color: wheat;
+}

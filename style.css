@@ -1,0 +1,52 @@
+body{
+    background-image: url(./nathan-dumlao-EwaV3HjwmUo-unsplash.jpg);
+}
+
+
+a{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    color: lightseagreen;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+  
+}
+.Collins{
+    color: black;
+
+}
+
+    img{
+        height: 60vh;
+        width: 20vw;
+        justify-content: center;
+        border-radius: 30%;
+    }
+    i{
+        float:inline-end;
+        color: black;
+        padding: 3px 10px;
+        border: none;
+        border-radius: 10px;
+    }
+a:hover{
+    color: black;
+    background-color: lightblue;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.fa:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
